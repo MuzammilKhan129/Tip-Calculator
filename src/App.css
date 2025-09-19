@@ -103,3 +103,56 @@ body {
 .calculator button:hover {
   background-color: #e04344;
 }
+
+/* Existing styles aapke waise hi rahenge */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .calculator {
+    width: 90%; /* screen ke hisaab se adjust hoga */
+    padding: 1.5rem;
+  }
+
+  .calculator input,
+  .calculator select {
+    font-size: 13px;
+    padding: 7px 9px;
+  }
+
+  .calculator h3 {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .calculator button {
+    font-size: 14px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem; /* thoda breathing space */
+  }
+
+  .calculator {
+    width: 100%; /* full width for small screens */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .calculator input,
+  .calculator select {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .calculator h3 {
+    font-size: 13px;
+  }
+
+  .calculator button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
