@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Center everything */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  margin: 0;
+}
+
+/* Card container */
+.calculator {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+/* Label + inputs in block layout */
+.calculator label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.calculator input,
+.calculator select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Output styling */
+.calculator h3 {
+  margin-top: 1rem;
+  background: #f0f7ff;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Reset button */
+.calculator button {
+  display: block;
+  width: 100%;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.calculator button:hover {
+  background-color: #e04344;
+}
